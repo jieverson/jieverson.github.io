@@ -45,19 +45,6 @@ $(document).ready(function() {
 		$(this).find('.overlay a:last-child').removeClass('animated slideInRight');
     });
 	
-	$('#skills-toggle').click(function() {
-        $('#skills').slideToggle(500);
-		$('.chart').easyPieChart({
-			barColor: '#1ABC9C',
-			trackColor: '#2F4254',
-			scaleColor: false,
-			lineCap: 'butt',
-			lineWidth: 12,
-			size:110,
-			animate: 2000
-		});
-    });
-
 	$('.carousel').mouseenter(function() {
 		$('.carousel-control').fadeIn(300);
 	});
